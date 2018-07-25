@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laratter by Platzi
+                    Acerca de nosotros!
                 </div>
 
                 <div class="links">
