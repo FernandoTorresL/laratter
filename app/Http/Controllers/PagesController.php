@@ -12,25 +12,25 @@ class PagesController extends Controller
             [
                 'id' => 1,
                 'content' => 'Este es mi primer mensaje!',
-                'image' => 'http://lorempixel.com/600/338?1',
+                'image' => 'http://placeimg.com/600/338/tech?1',
 
             ],
             [
                 'id' => 2,
                 'content' => 'Este es mi segundo mensaje!',
-                'image' => 'http://lorempixel.com/600/338?2',
+                'image' => 'http://placeimg.com/600/338/tech?2',
 
             ],
             [
                 'id' => 3,
                 'content' => 'Otro mensaje más!',
-                'image' => 'http://lorempixel.com/600/338?3',
+                'image' => 'http://placeimg.com/600/338/people?3',
 
             ],
             [
                 'id' => 4,
                 'content' => 'El último mensaje!',
-                'image' => 'http://lorempixel.com/600/338?4',
+                'image' => 'https://picsum.photos/600/338?image=0',
 
             ],
         ];
