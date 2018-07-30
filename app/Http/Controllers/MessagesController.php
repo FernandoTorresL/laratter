@@ -14,8 +14,16 @@ class MessagesController extends Controller
             ]);
     }
 
-    public function create()
+    public function create(Request $request)
     {
-        return 'Created!';
+        $this->validate($request, [
+            'message' => ['required', 'max:160']
+            ], [
+                'message.required' => 'Por favor escribe tu mensaje.',
+                'message.max' => 'El mensaje no puede superar los 160 caracteres.'
+                ]);
+
+//        dd($request->all());
+        return 'Llegó!';
     }
 }
