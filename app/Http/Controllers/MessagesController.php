@@ -13,4 +13,9 @@ class MessagesController extends Controller
             'message' => $message
             ]);
     }
+
+    public function create()
+    {
+        return 'Created!';
+    }
 }
